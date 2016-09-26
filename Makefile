@@ -1,8 +1,12 @@
+# Declare automatic variables
+MD = paper/sections/*.md
 
-all: paper.html
+.PHONY: all clean
 
-paper/paper.md: paper/sections/*.md
-	cat *.md > paper.md
+all: paper/paper.html
+
+paper/paper.md: $(MD)
+	cat $(MD) > paper.md
 
 paper/paper.html: paper/paper.md
 	pandoc -s paper.md -o paper.html
