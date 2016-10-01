@@ -11,5 +11,5 @@ paper/paper.md: $(MD)
 paper/paper.html: paper/paper.md
 	pandoc -s paper/paper.md -o paper/paper.html
 
-clear:
-	rm -f paper/paper.md paper/paper.html
+clean:
+	rm -f paper/paper.html
