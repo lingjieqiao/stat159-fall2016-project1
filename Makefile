@@ -12,4 +12,4 @@ paper/paper.html: paper/paper.md
 	pandoc -s paper/paper.md -o paper/paper.html
 
 clear:
-	rm -f paper.md paper.html
+	rm -f paper/paper.md paper/paper.html
