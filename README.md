@@ -26,6 +26,7 @@ Besides the basic concepts, the paper also includes personal reflections upon th
 
 
 The paper is separated into four sections:
+
 1. Abstract
 2. Introduction
 3. Discussion
@@ -35,5 +36,6 @@ The paper is separated into four sections:
 ### LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
 
 Author: **Lingjie Qiao**
