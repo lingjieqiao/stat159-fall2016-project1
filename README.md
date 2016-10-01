@@ -11,7 +11,8 @@ Project instruction: [github project repository](https://github.com/ucb-stat159/
 
 This paper describes the working process of creating this paper (just like writing a blog about how to write a blog). The following concepts are discussed in detail through the paper:
 
-* Basic Structure of GitHub
+* GitHub
+* Basic Elements of Github
     * README File
     * Makefile
     * .gitignore
