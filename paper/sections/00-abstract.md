@@ -1,11 +1,13 @@
-# Paper 
+# Project Report 
 
-![alt tag](../../images/stat159-logo.png)
+![alt tag](/images/stat159-logo.png)
 
-### Author: Lingjie Qiao
-### Course: Statistics 159
-### Professor: Gaston Sanchez
+Author: Lingjie Qiao
+Course: Statistics 159
+Course title: Reproducible and Collaborative Statistical Data Science
+Instructor: Gaston Sanchez
 
+---
 
 ## Abstract
 

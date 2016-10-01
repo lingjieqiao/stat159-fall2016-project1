@@ -20,7 +20,15 @@ This paper describes the working process of creating this paper (just like writi
 * Markdown File
 * Pandoc
 
+
 Besides the basic concepts, the paper also includes personal reflections upon the production process, such as the relatively easy parts, the challenging parts and the time-consuming parts, so that the readers can get a better understanding of the structure and successfully reproduce the work. All the information are tracable so that anyone interested in using this work can build meaningful ideas upon it.
+
+
+The paper is separated into four sections:
+1. Abstract
+2. Introduction
+3. Discussion
+4. Conclusion
 
 
 ### LICENSE
