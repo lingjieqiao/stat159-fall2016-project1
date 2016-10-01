@@ -1,10 +1,13 @@
-# Project Report 
+# Stats 159: Project Report 
 
-![alt tag](/images/stat159-logo.png)
+![alt tag](/images/stat159-logo.png =50x40)
 
 Author: Lingjie Qiao
+
 Course: Statistics 159
+
 Course title: Reproducible and Collaborative Statistical Data Science
+
 Instructor: Gaston Sanchez
 
 ---
@@ -46,6 +49,7 @@ The following image, The lifecycle of the status of your files, from the officia
 
 ![alt tag](/images/git-procedure.png)
 
+
 Simply put, git records all the changes you make with the working directory. Git is essential in this project because as beginners to computation statistics, we need to track our progress. Some advantages of Git include: 1. undo mistakes 2. work offline and 3. create commits useful for future reference. It is therefore important for anyone to write good commit messages so that the readers can easily follow your thinking process and achieve effective collaboration.
 
 ---
@@ -67,11 +71,11 @@ From my perspective, Github creates a space for people to publish and store thei
 
 As discussed in the previous section, Makefile is an important tool that makes the compiling process more efficient and structured. Based on my understanding, Makefile contains codes that _streamline_ a project, which means it generalizes the actions of compiling a program all together in one file such that it is very easy to reproduce the work with one minor change in any of the original source files. When we type `make` in the terminal, the terminal will look for a file named "Makefile" and execute the codes with encoded instructions and keep all the changes up to date. In this project, Makefile is used to combine and concentrate the four separate sections of paper into one, easing the process of making changes to four separate markdown file in creating one new file. 
 
-Makefile helps to create mechanics for formulating the compiling process regarding source files into the target file. When dealing with small projects, we might type compiling command every time we make changes to the source file to update the output. However, once the project contains a lot of complicated dependency relations and involves different sources, it will be extremely boring and time-consuming to compile the file from the first step. Plus, minor errors could occur due to such inefficiency. Makefile therefore acts as the compiling engine that streamlines the compiling procedure and minimizes the error-producing process.
+Makefile helps to create mechanics for formulating the compiling process regarding source files into the target file. Once the project contains a lot of complicated dependency relations and involves different sources, it will be extremely time-consuming to compile the file from the first step. Plus, minor errors could occur due to such inefficiency. Makefile therefore acts as the compiling engine that streamlines the compiling procedure and minimizes the error-producing process.
 
 ---
 
-### 1.4 pandoc
+### 1.4 Pandoc
 
 ![alt tag](/images/pandoc-logo.png)
 
@@ -101,10 +105,13 @@ As the course title, "Reproducible and Collaborative Statistical Data Science", 
 
 To get the paper formatted and compiled, I did a lot of online searches on the exact meaning of each term, trying to translate these technical meanings in my own language so that readers can get a more practical and personal understanding. Utilizing information from wikipedia, software tool official website/documentation and related journals, I developed a more comprehensive understanding in formulating my ideas. I also communicated a lot with my classmates in order to find potential misunderstandings and consulted with our GSI on how to get started with makefile and pandoc. With these conversations, I am able to make progress and fully explain the underlying ideas.
 
+---
+
 #### 2.1 Basics
 
 The relatively easy part of this project is the real use of all software tools (pandoc, git and markdown language etc.). The reason we can write about how we write the paper is the fact that we developed a good understanding of the writing process. Therefore, with GSI's instructions and Professor's clarification of concepts in classes, it is not difficult for us to actually use these tools to efficiently produce our work. In addition, since the project structure is provided, it is not difficult to follow the instructions and create the exact same workflow, which is something we should learn and refer to in future paper writing.
 
+---
 
 #### 2.2 Challenges
 
@@ -112,6 +119,7 @@ The most challenging part of this project so far is to formalize my thoughts and
 
 At the same time, when writing the paper, I gradually realized how superficial my understanding was to some of the tools. With limited information, we only have a general big picture of what the tool is and how it works. However, we do not really understand the tools to the extent of best utilizing it and cannot answer detailed questions regarding its role, usage and usefulness compared with other similar tools. For example, while I am familiar with using git and confident in `add` and `commit`, I nevertheless spent a long time figuring out how to undo the wrong commit messages and undo changes in general. Efficiency and time-saving are important in performing larger projects. We therefore need to take initiatives to learn more about the tools in order to produce the satisfying results in a timely, error-clean manner.
 
+---
 
 #### 2.3 Project Timeline
 

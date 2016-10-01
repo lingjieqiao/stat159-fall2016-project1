@@ -26,6 +26,7 @@ The following image, The lifecycle of the status of your files, from the officia
 
 ![alt tag](/images/git-procedure.png)
 
+
 Simply put, git records all the changes you make with the working directory. Git is essential in this project because as beginners to computation statistics, we need to track our progress. Some advantages of Git include: 1. undo mistakes 2. work offline and 3. create commits useful for future reference. It is therefore important for anyone to write good commit messages so that the readers can easily follow your thinking process and achieve effective collaboration.
 
 ---
@@ -47,11 +48,11 @@ From my perspective, Github creates a space for people to publish and store thei
 
 As discussed in the previous section, Makefile is an important tool that makes the compiling process more efficient and structured. Based on my understanding, Makefile contains codes that _streamline_ a project, which means it generalizes the actions of compiling a program all together in one file such that it is very easy to reproduce the work with one minor change in any of the original source files. When we type `make` in the terminal, the terminal will look for a file named "Makefile" and execute the codes with encoded instructions and keep all the changes up to date. In this project, Makefile is used to combine and concentrate the four separate sections of paper into one, easing the process of making changes to four separate markdown file in creating one new file. 
 
-Makefile helps to create mechanics for formulating the compiling process regarding source files into the target file. When dealing with small projects, we might type compiling command every time we make changes to the source file to update the output. However, once the project contains a lot of complicated dependency relations and involves different sources, it will be extremely boring and time-consuming to compile the file from the first step. Plus, minor errors could occur due to such inefficiency. Makefile therefore acts as the compiling engine that streamlines the compiling procedure and minimizes the error-producing process.
+Makefile helps to create mechanics for formulating the compiling process regarding source files into the target file. Once the project contains a lot of complicated dependency relations and involves different sources, it will be extremely time-consuming to compile the file from the first step. Plus, minor errors could occur due to such inefficiency. Makefile therefore acts as the compiling engine that streamlines the compiling procedure and minimizes the error-producing process.
 
 ---
 
-### 1.4 pandoc
+### 1.4 Pandoc
 
 ![alt tag](/images/pandoc-logo.png)
 

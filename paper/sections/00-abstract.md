@@ -1,10 +1,13 @@
-# Project Report 
+# Stats 159: Project Report 
 
-![alt tag](/images/stat159-logo.png)
+![alt tag](/images/stat159-logo.png =50x40)
 
 Author: Lingjie Qiao
+
 Course: Statistics 159
+
 Course title: Reproducible and Collaborative Statistical Data Science
+
 Instructor: Gaston Sanchez
 
 ---
