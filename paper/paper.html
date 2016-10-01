@@ -10,7 +10,7 @@
 <body>
 <h1 id="stats-159-project-report">Stats 159: Project Report</h1>
 <div class="figure">
-<embed src="/images/stat159-logo.png%20=50x40" />
+<img src="/images/stat159-logo.png" alt="alt tag" />
 <p class="caption">alt tag</p>
 </div>
 <p>Author: Lingjie Qiao</p>
@@ -33,25 +33,25 @@
 <p class="caption">alt tag</p>
 </div>
 <p>Git, according to the developer's website, is an open source distributed version control system that helps people keep track of changes they made to documents. When I create a new folder on the local computer and <code>git init</code> the folder, git will automatically be initiated to track the changes in the current repository.</p>
-<p>The most common command lines associated with Git are: * <code>git init</code> - which initiates git on a new working directory * <code>git status</code> - which checks the current git status * <code>git add</code> - which stages the file * <code>git commit</code> - which commits the changes with specific commit message * <code>git log</code> - which presents all history changes * <code>git checkout</code> - which checks out commits, branches or files</p>
-<p>The following image, The lifecycle of the status of your files, from the official git documentation, explains the different stages of a file. One will notice that, each file in the working directory can be <strong>tracked</strong> or <strong>untracked</strong> while each <strong>tracked</strong> file can be <strong>unmodified</strong>, <strong>modified</strong> or <strong>staged</strong>.</p>
+<p>Some common command lines that I personally use the most are: * <code>git init</code> - which initiates Git on a new working directory * <code>git status</code> - which checks the current Git status * <code>git add</code> - which stages the file * <code>git commit</code> - which commits the changes with specific commit message * <code>git log</code> - which presents all history changes * <code>git checkout</code> - which checks out commits, branches or files</p>
+<p>The following image, &quot;The Lifecycle of The Status of Your Files&quot;, from the official Git documentation, explains the different stages of a file. One will notice that, each file in the working directory can be <strong>tracked</strong> or <strong>untracked</strong> while each <strong>tracked</strong> file can be <strong>unmodified</strong>, <strong>modified</strong> or <strong>staged</strong>.</p>
 <div class="figure">
 <img src="/images/git-procedure.png" alt="alt tag" />
 <p class="caption">alt tag</p>
 </div>
-<p>Simply put, git records all the changes you make with the working directory. Git is essential in this project because as beginners to computation statistics, we need to track our progress. Some advantages of Git include: 1. undo mistakes 2. work offline and 3. create commits useful for future reference. It is therefore important for anyone to write good commit messages so that the readers can easily follow your thinking process and achieve effective collaboration.</p>
+<p>Simply put, Git records all the changes you make with the working directory. Git is essential in this project because as beginners to computation statistics, we need to track our progress. Some advantages of Git include: 1. undo mistakes 2. work offline and 3. create commits useful for future reference. It is therefore important for anyone to write good commit messages so that the readers can easily follow your thinking process and achieve effective collaboration.</p>
 <hr />
 <h3 id="github">1.2 Github</h3>
 <div class="figure">
 <img src="/images/github-logo.png" alt="alt tag" />
 <p class="caption">alt tag</p>
 </div>
-<p>One related concept of Git is Github, a web-based Git repository hosting service. Since Git is the version control system on your local computer, it is essential to bring in the concept of remote repositories and remote data/code storage when collaborations on project are more and more needed in today's booming technology trend.</p>
+<p>One related concept of Git is <em>Github</em>, a web-based Git repository hosting service. Since Git is the version control system on your local computer, it is essential to bring in the concept of remote repositories and remote data/code storage when collaborations on project are more and more needed in today's booming technology trend.</p>
 <p>The usual structure of one Github repository includes a README file, a Makefile (which will be discussed in details in the next section), a gitignore file and a license file. README file gives the &quot;executive summary&quot; of the project and includes overall project description for any competent reader to follow and understand. Gitignore file specifies the files/extensions that the author wants Git to intentionally ignore. The license protects the author's rights and gives readers clear instructions on how the results can be used.</p>
 <p>From my perspective, Github creates a space for people to publish and store their work (codes, documents, graphs, emails etc.) on a remote server such that they can access the materials from all places. This will be a convenient tool for people to undo changes, avoid some mistakes, and save time and resources.</p>
 <hr />
 <h3 id="makefile">1.3 Makefile</h3>
-<p>As discussed in the previous section, Makefile is an important tool that makes the compiling process more efficient and structured. Based on my understanding, Makefile contains codes that <em>streamline</em> a project, which means it generalizes the actions of compiling a program all together in one file such that it is very easy to reproduce the work with one minor change in any of the original source files. When we type <code>make</code> in the terminal, the terminal will look for a file named &quot;Makefile&quot; and execute the codes with encoded instructions and keep all the changes up to date. In this project, Makefile is used to combine and concentrate the four separate sections of paper into one, easing the process of making changes to four separate markdown file in creating one new file.</p>
+<p>As discussed in the previous section, <em>Makefile</em> is an important tool that makes the compiling process more efficient and structured. Based on my understanding, Makefile contains codes that <strong>streamline</strong> a project, which means it generalizes the actions of compiling a program all together in one file such that it is very easy to reproduce the work with one minor change in any of the original source files. When we type <code>make</code> in the terminal, the terminal will look for a file named &quot;Makefile&quot; and execute the codes with encoded instructions and keep all the changes up to date. In this project, Makefile is used to combine and concentrate the four separate sections of paper into one, easing the process of making changes to four separate markdown file in creating one new file.</p>
 <p>Makefile helps to create mechanics for formulating the compiling process regarding source files into the target file. Once the project contains a lot of complicated dependency relations and involves different sources, it will be extremely time-consuming to compile the file from the first step. Plus, minor errors could occur due to such inefficiency. Makefile therefore acts as the compiling engine that streamlines the compiling procedure and minimizes the error-producing process.</p>
 <hr />
 <h3 id="pandoc">1.4 Pandoc</h3>
@@ -59,16 +59,16 @@
 <img src="/images/pandoc-logo.png" alt="alt tag" />
 <p class="caption">alt tag</p>
 </div>
-<p>Another tool that makes the file producing process easier is pandoc, a library that helps converting from one markup format to another. With pandoc, the author no longer needs to spend time typing the same information in different formats when several formats of the results are needed. Rather, pandoc helps prepare the materials in the most authentic document narrative - it can read and convert a variety of formats including Markdown, HTML, and LaTex.</p>
-<p>Pandoc makes it extremely easy to convert from one format to another, saving unnecessary time in redoing the whole project and creating most native representation of the document. It also gives the author an opportunity to easily compare between formats such that the author can choose the format that best delivers and presents the results, rather than being stuck with one restricted format and less satisfying output. Pandoc in this project is used to convert the paper from Markdown to HTML.</p>
+<p>Another tool that makes the file producing process easier is <em>Pandoc</em>, a library that helps converting from one markup format to another. With Pandoc, the author no longer needs to spend time typing the same information in different formats when several formats of the results are needed. Rather, Pandoc helps prepare the materials in the most authentic document narrative - it can read and convert a variety of formats including Markdown, HTML, and LaTex.</p>
+<p>Pandoc makes it easy to convert from one format to another, saving unnecessary time in redoing the whole project and creating most native representation of the document. It also gives the author an opportunity to easily compare between formats such that the author can choose the format that best delivers and presents the results, rather than being stuck with one restricted format and less satisfying output. Pandoc in this project is used to convert the paper from Markdown to HTML.</p>
 <hr />
 <h3 id="markdown">1.5 Markdown</h3>
 <div class="figure">
 <img src="/images/markdown-logo.png" alt="alt tag" />
 <p class="caption">alt tag</p>
 </div>
-<p>Markdown, as one of the markup languages, is greatly used in this project. README file, paper section files and the final paper are all written with markdown language. People normally recognize markdown as an &quot;easy to write and easy to read&quot; language, as it doesn't require complicated syntax and can be composed with plain text.</p>
-<p>I personally think Markdown is very useful in statistics because it creates clean and well-structured documents while at the same time is easy to pick up the concept/syntax. It can be used in writing research report, which is exactly what I am using for this paper.</p>
+<p><em>Markdown</em>, as one of the markup languages, is greatly used in this project. README file, paper section files and the final paper are all written with markdown language. People normally recognize markdown as an &quot;easy to write and easy to read&quot; language, as it doesn't require complicated syntax and can be composed with plain text.</p>
+<p>I personally think Markdown is very useful in statistics because it creates clean and well-structured documents while at the same time has syntax that is easy to pick up for the beginners. It can be used in writing research report, which is the exact language I am using for this paper.</p>
 <hr />
 <h2 id="discussion">2. Discussion</h2>
 <p>As the course title, &quot;Reproducible and Collaborative Statistical Data Science&quot;, suggested, reproducibility and collaboration are two main focuses of present research projects that enable us to make meaningful use of other's works built upon collective ideas. With that said, creating a <strong>public repository</strong>, instead of a private one, on Github is a crucial part of the project's reproducibility. As we learned from recent reproducibility crisis, it is important to make the source, code, documentation public in order for others to prove your work's correctness and make meaningful use of the results. Therefore, the content of this paper as well as citation and documentation are all public in my Github repository so that everyone can question or challenge the concepts here and learn from my discovery.</p>
@@ -85,12 +85,20 @@
 <p>I started this project from creating folders in the local repository and gradually pushed my work to the Github repository. It overall takes me around 10 hours in finishing this project, plus the learning hours in class and in lab.</p>
 <hr />
 <h2 id="conclusion">3. Conclusion</h2>
-<p>To conclude, this project helps me to develop a better and more comprehensive understanding of the computation tools, such as git, github, pandoc, markdown and makefile, that assist the reproducible procedure and lay down the basic foundation for large projects. Some new things I learned from this project are:</p>
+<p>To conclude, this project helps me to develop a better and more comprehensive understanding of the computation tools, such as Git, Github, Pandoc, Markdown and Makefile, that assist the reproducible procedure and lay down the basic foundation for large projects. Some new things I learned from this project are:</p>
 <ul>
-<li>Commit more with good commit messages such that it is easier to track your changes in the future</li>
+<li>Commit frequently with good commit messages such that it is easier to track your changes in the future</li>
 <li>Utilize tools and platforms that encourage open source and public sharing practice such that more people can benefit from individual works</li>
 <li>Explore and learn concepts through online searches and discussion with instructors/classmates to build ideas collectively</li>
 </ul>
-<p>Only if we can flexibly and comfortably use these tools will we be able to deal with more complicated projects and efficiently perform the reproducible work. It matches the initial goal of this course such that &quot;students learn practical techniques and tools for producing statistically sound and appropriate, reproducible, and verifiable computational answers to scientific questions.&quot; We should therefore familiarize ourselves not only with the tools/concepts, but also the idea of reproducibility and collaboration so that we can implement these tools to achieve the desired results.</p>
+<p>Only if we can flexibly and comfortably use these tools will we be able to deal with more complicated projects and efficiently perform the reproducible work. It matches the initial goal of this course such that &quot;students learn practical techniques and tools for producing statistically sound and appropriate, reproducible, and verifiable computational answers to scientific questions.&quot; We should therefore familiarize ourselves not only with the tools/concepts, but also the idea of reproducibility and collaboration so that we can effectively implement these tools to achieve the desired results.</p>
+<hr />
+<h2 id="reference">Reference:</h2>
+<ol style="list-style-type: decimal">
+<li>Image &quot;The Lifecycle of The Status of Your Files&quot; - Source: <a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository">Git Documentation</a></li>
+<li>Pandoc User Gide <a href="http://pandoc.org/MANUAL.html" class="uri">http://pandoc.org/MANUAL.html</a></li>
+<li><a href="https://www.cs.umd.edu/class/fall2002/cmsc214/Tutorial/makefile.html">Makefile Tutorial - UMD Department of Computer Science</a></li>
+<li>Github Official site - <a href="https://github.com/open-source">Open Source Practice</a></li>
+</ol>
 </body>
 </html>

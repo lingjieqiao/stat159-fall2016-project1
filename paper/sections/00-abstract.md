@@ -1,6 +1,6 @@
 # Stats 159: Project Report 
 
-![alt tag](/images/stat159-logo.png =50x40)
+![alt tag](/images/stat159-logo.png)
 
 Author: Lingjie Qiao
 
