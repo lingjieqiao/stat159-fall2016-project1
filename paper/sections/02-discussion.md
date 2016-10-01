@@ -9,13 +9,13 @@ To get the paper formatted and compiled, I did a lot of online searches on the e
 
 ---
 
-#### 2.1 Basics
+### 2.1 Basics
 
 The relatively easy part of this project is the real use of all software tools (pandoc, git and markdown language etc.). The reason we can write about how we write the paper is the fact that we developed a good understanding of the writing process. Therefore, with GSI's instructions and Professor's clarification of concepts in classes, it is not difficult for us to actually use these tools to efficiently produce our work. In addition, since the project structure is provided, it is not difficult to follow the instructions and create the exact same workflow, which is something we should learn and refer to in future paper writing.
 
 ---
 
-#### 2.2 Challenges
+### 2.2 Challenges
 
 The most challenging part of this project so far is to formalize my thoughts and actions in producing the paper and explaining concepts in the most concrete/understandable manner. Since everyone can conduct Google search and find the official definition online, I hope to provide a slightly different perspective by showing how these concepts/tools are used in my own project. 
 
@@ -23,7 +23,7 @@ At the same time, when writing the paper, I gradually realized how superficial m
 
 ---
 
-#### 2.3 Project Timeline
+### 2.3 Project Timeline
 
 I started this project from creating folders in the local repository and gradually pushed my work to the Github repository. It overall takes me around 10 hours in finishing this project, plus the learning hours in class and in lab. 
 
